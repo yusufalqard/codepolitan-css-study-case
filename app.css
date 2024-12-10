@@ -11,8 +11,8 @@ h1{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     /* align-content: center; */
 }
 
@@ -22,5 +22,8 @@ h1{
 }
 
 div:nth-of-type(2){
+    align-self: flex-end;
+}
+div:nth-of-type(4){
     align-self: flex-end;
 }
