@@ -3,12 +3,15 @@ h1{
 }
 
 #container {
-    background-color: #003049;
+    background-color: #97a8b1;
     width: 90%;
     height: 500px;
     margin: 0 auto;
     border: 5px solid #003049;
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 #container div {
