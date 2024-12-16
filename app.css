@@ -47,3 +47,13 @@ main{
     height: 500px;
     display: flex;
 }
+
+main .sidebar{
+    background-color: yellow;
+    flex: 1 2 300px;
+}
+
+main .content{
+    background-color: magenta;
+    flex: 2 1 800px;
+}
