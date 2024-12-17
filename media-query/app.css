@@ -18,3 +18,26 @@ ul, li {
     padding: 0;
     
 }
+/* @media (width: 500px) {
+    h1{
+        color:rgb(59, 199, 231);
+    }
+} */
+
+@media screen and (min-width: 500px){
+    h1{
+        color:dodgerblue;
+    }
+}
+
+@media screen and (min-width: 800px){
+    h1{
+        color:burlywood;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    h1{
+        color:mediumseagreen;
+    }
+}
