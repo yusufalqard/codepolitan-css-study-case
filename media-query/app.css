@@ -24,7 +24,7 @@ ul, li {
     }
 } */
 
-@media screen and (min-width: 500px){
+/* @media screen and (min-width: 500px){
     h1{
         color:dodgerblue;
         font-size:15px;
@@ -54,5 +54,18 @@ ul, li {
 @media screen and (orientation: landscape){
     body{
         background-color: aqua;
+    }
+} */
+
+/* Creating Responsive navigation with flexbox that support all device */
+@media (max-width: 768px) {
+    h1{
+        font-size: 4em;
+    }
+}
+
+@media (max-width: 576px) {
+    h1{
+        font-size: 2em;
     }
 }
