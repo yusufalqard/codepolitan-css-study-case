@@ -131,10 +131,10 @@ table {
 /* Start study case for customize css */
 html {
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 body {
-  background-color: #00bff9;
+  background-color: #529ffa;
   display: flex;
   justify-content: center;
   min-height: 100vh;
@@ -223,4 +223,15 @@ body {
 .pricing-button.is-featured:focus {
   background-color: #269aff;
   color: white;
+}
+
+@media (min-width:900px){
+    .panel{
+        flex-direction: row;
+    }
+    .pricing-plan{
+        border-bottom: none;
+        border-right:1px solid #e1f1ff;
+        padding:25px 50px;
+    }
 }
