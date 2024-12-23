@@ -1,0 +1,22 @@
+body {
+  background-color: #b296af;
+  font-family: "Roboto Condensed", serif;
+}
+
+#navbar {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+#navbar .nav-link {
+    color:white;
+}
+
+#navbar .nav-link:hover {
+    color:rgb(122, 206, 207);
+}
+
+#navbar .navbar-brand{
+    color:rgb(122, 206, 207);
+    font-size: 1.5rem;
+}
