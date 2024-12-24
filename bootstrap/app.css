@@ -1,5 +1,5 @@
 body {
-  background-color: #b296af;
+  background-color: #ebdeb1;
   font-family: "Roboto Condensed", serif;
 }
 
@@ -9,14 +9,14 @@ body {
 }
 
 #navbar .nav-link {
-    color:white;
+  color: white;
 }
 
 #navbar .nav-link:hover {
-    color:rgb(122, 206, 207);
+  color: rgb(77, 147, 232);
 }
 
-#navbar .navbar-brand{
-    color:rgb(122, 206, 207);
-    font-size: 1.5rem;
+#navbar .navbar-brand {
+  color: rgb(77, 147, 232);
+  font-size: 1.5rem;
 }
