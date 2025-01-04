@@ -20,3 +20,38 @@ body {
   color: rgb(77, 147, 232);
   font-size: 1.5rem;
 }
+
+.navbar.scrolled {
+  background-color: #c2ded1;
+  transition: background 500ms;
+  -webkit-transition: background 500ms;
+  -moz-transition: background 500ms;
+  -ms-transition: background 500ms;
+  -o-transition: background 500ms;
+}
+
+#title-head {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+.blurb h2 {
+  color: #354259;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  color: #3f4e4f;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+@media (max-width: 1200px) {
+  #title-head h1 {
+    font-size: 3rem;
+    font-weight: 100;
+  }
+}
+
