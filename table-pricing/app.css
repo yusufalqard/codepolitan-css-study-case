@@ -144,7 +144,7 @@ body {
   border-radius: 10px;
   padding: 15px 25px;
   width: 100%;
-  max-width: 960px;
+  max-width: 900px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -157,6 +157,13 @@ body {
 
 .pricing-plan:last-child {
   border-bottom: none;
+}
+
+.img-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 12rem;
+  height: 12rem;
 }
 
 .pricing-img {
@@ -181,11 +188,11 @@ body {
   font-size: 12px;
   line-height: 1.5;
   padding: 15px 0;
-  border-top: 1px solid salmon;
+  border-top: 1px solid #e1f1ff;
 }
 
 .pricing-features-item:last-child {
-  border-bottom: 1px solid salmon;
+  border-bottom: 1px solid #e1f1ff;
 }
 
 .pricing-price {
@@ -196,13 +203,13 @@ body {
 }
 
 .pricing-button {
-  border: 1px solid gold;
+  border: 1px solid #9dd1ff;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  color: #016ff9;
+  color: #348fff;
   display: inline-block;
   padding: 15px 35px;
   text-decoration: none;
@@ -221,7 +228,7 @@ body {
 
 .pricing-button.is-featured:hover,
 .pricing-button.is-featured:focus {
-  background-color: #269aff;
+  background-color: rgb(96, 186, 117);
   color: white;
 }
 
@@ -233,5 +240,9 @@ body {
         border-bottom: none;
         border-right:1px solid #e1f1ff;
         padding:25px 50px;
+    }
+
+    .pricing-plan:last-child{
+        border-right: none;
     }
 }
